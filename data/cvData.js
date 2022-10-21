@@ -1,17 +1,17 @@
 export const cvData = {
-  name: "Halit İslam İçli",
+  name: "Nguyễn Văn Kiên",
   image: "",
   jobTitle: "Frontend Developer",
-  location: "Ankara, Turkey",
-  email: "imhalid@icloud.com",
+  location: "Hà Nội, VN",
+  email: "kiennv@mediaz.vn",
   linkedIn: "",
   instagram: "",
-  facebook: "",
-  twitter: "halidislm",
-  github: "imhalid",
-  website: "halid.dev",
+  facebook: "mediazvn",
+  twitter: "mediazvn",
+  github: "",
+  website: "https://mediaz.vn",
   about:
-    "After graduating from the programming department, I worked remotely on graphic design for about 5 years. I have been working to be a **Front End Developer** for the last 7 months and I am looking for a job in this field. Because of my old job, *I give importance to design and visuality in my work.*",
+    "Sau khi tốt nghiệp khoa lập trình, tôi đã làm việc từ xa về thiết kế đồ họa trong khoảng 5 năm. Tôi đã làm việc để trở thành ** Front End Developer ** trong 7 tháng qua và tôi đang tìm kiếm một công việc trong lĩnh vực này. Vì công việc cũ của tôi, * tôi coi trọng thiết kế và hình ảnh trong công việc của mình. *",
 
   toolsAndTechSkills: [
     "Photoshop",
@@ -29,38 +29,38 @@ export const cvData = {
     "React",
     "Tailwind",
   ],
-  languages: ["Turkish(Native)", "English(A2)"],
+  languages: ["Việt Nam", "English(A2)"],
   skillTitle1: "Tools and Tech Skills",
   skillTitle2: "Industry Knowledge",
   skillTitle3: "Languages",
   projects: [
     {
-      title: "CV Builder",
-      link: "https://cv-builder.halid.dev/",
-      summary: `With this project you can create real time CV. You can see the changes you have made live. Built with Tailwind and contextAPI.`,
+      title: "MediaZ Solutions",
+      link: "https://go.mzg.vn/solutions",
+      summary: `Tôi đã dựng các giải pháp cho MediaZ Solutions, cung cấp cho doanh nghiệp các phương án quản trị hiệu quả và tối ưu nguồn lực`,
     },
     {
-      title: "halid.dev",
-      link: "https://halid.dev",
-      summary: `My personal website, that I created with Next.js, Tailwind Css, Content Layer.`,
+      title: "CV Builder",
+      link: "https://cv.mediaz.vn",
+      summary: `Công cụ tạo CV miễn phí giúp cho các bạn sinh viên và freelancer có thể tìm các công việc ưng ý.`,
     },
 
     {
-      title: "Weather App",
-      link: "https://weather-imhalid.vercel.app/",
-      summary: `In this work, a small project where I visualize the data from the API.`,
+      title: "MZG Link",
+      link: "https://mzg.vn/",
+      summary: `Công cụ rút gọn link và tạo Profile tối ưu.`,
     },
   ],
   education: [
     {
       title: "Web Design and Programming",
-      school: "Anadolu University",
+      school: "IT Expert Academy",
       startDate: "2022",
       endDate: "Now",
     },
     {
       title: "Computer Programming",
-      school: "Adnan Menderes University",
+      school: "Đại Học FPT",
       startDate: "2017",
       endDate: "2019",
     },
@@ -68,22 +68,22 @@ export const cvData = {
   experiences: [
     {
       title: "Graphic Designer, Editor, Data Analysis",
-      company: "Suriye Gündemi",
+      company: "ABC Company",
       startDate: "2016",
       endDate: "2020",
       current: true,
-      summary: `It is an impartial information sharing platform about Syria. My job task:
-       Preparation of up-to-date maps according to the situation in the war zone. 
-       Preparing visual infographics about the obtained data and organizing these data. 
-       Adding articles and content to the site with Wordpress.`,
+      summary: `Đây là một nền tảng chia sẻ thông tin khách quan về Syria. Nhiệm vụ công việc của tôi:
+        Chuẩn bị các bản đồ cập nhật theo tình hình trong khu vực chiến sự.
+        Chuẩn bị đồ họa thông tin trực quan về dữ liệu thu được và sắp xếp những dữ liệu này.
+        Thêm bài viết và nội dung vào trang bằng Wordpress.`,
     },
     {
       title: "Content Creator, Videographer",
-      company: "Zore Aksesuar",
+      company: "XYZ Company",
       startDate: "2021",
       endDate: "(2 Months)",
       current: true,
-      summary: `In this company that sells accessories for phones and technological products, I prepared the video edits of the new products and mounted them with Final Cut Pro. I shared my social media posts with Facebook Business.`,
+      summary: `Trong công ty bán phụ kiện cho điện thoại và các sản phẩm công nghệ này, tôi đã chuẩn bị video chỉnh sửa các sản phẩm mới và gắn chúng với Final Cut Pro. Tôi đã chia sẻ các bài đăng trên mạng xã hội của mình với Facebook Business.`,
     },
   ],
   displayImage: true,
