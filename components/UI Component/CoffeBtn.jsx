@@ -4,10 +4,10 @@ const GithubBtn = () => {
   return (
     <a
       className="resetButton transition-all flex  justify-center bg-yellow-400   group hover:bg-yellow-400 h-10 overflow-hidden relative"
-      href="https://www.buymeacoffee.com/imhalid"
+      href="https://mediaz.vn"
     >
       <button>
-        <CoffeSVG />
+        Trang chủ MediaZ
       </button>
     </a>
   );
