@@ -22,7 +22,7 @@ const Skills = () => {
           layout
           className="w-full flex text-neutral-500 cursor-pointer text-lg"
         >
-          <span className="flex-1">Skills</span>
+          <span className="flex-1">Kỹ năng</span>
           <motion.div
             className="inline-block items-end"
             animate={{ rotate: isOpen ? 90 : 0 }}

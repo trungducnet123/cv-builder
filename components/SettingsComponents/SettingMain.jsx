@@ -11,30 +11,22 @@ const SettingMain = () => {
   return (
     <AnimatePresence>
       <motion.div layout className="cardStyle">
-        <h1 className="text-2xl font-bold">CV Builder</h1>
+        <h1 className="text-2xl font-bold">CV Builder | MediaZ</h1>
         <div className="mt-5">
           <p>
-            Hi guys, I designed this project for everyone to use and I still
-            continue to design it. I will add more features and template designs
-            soon. Please send me feedback if you like it. <br />
-            <br /> To be more supportive, you can buy me a coffee so I can work
-            harder.
+            Chào bạn, đây là trình tạo CV (hồ sơ xin việc) được vận hành bởi MediaZ. <br/>Ứng dụng này hoàn toàn miễn phí, bạn có thể sử dụng để tạo ra những CV xuất sắc nhất! 
           </p>
           <div className="bg-sky-50 border-2 border-sky-700/50 px-2 mt-4 mb-2 pt-4 py-2 rounded-xl">
-            <h1 className="text-sky-900 text-xl font-bold">Before using</h1>
+            <h1 className="text-sky-900 text-xl font-bold">Trước khi sử dụng</h1>
             <ol className="list-none mt-2 text-sky-900 space-y-2">
               <li>
-                ● The <strong>Reset</strong> button and the
-                <strong> Fill Sample Data </strong>
-                button will clear all the changes you have made and you cannot
-                undo them.
+                ● Nhấp vào <strong>Reset</strong> để xóa dữ liệu and nhấp
+                <strong> Điền dữ liệu DEMO </strong>
+                để xóa dữ liệu và điền dữ liệu mặc định.
               </li>
               <li>
-                ● <strong>Contact me</strong> if you encounter any problems.
-              </li>
-              <li>
-                ● Sometimes checkboxes don't work as they should.
-                <strong> Just click twice for it to work properly.</strong>
+                ● Đôi khi các hộp kiểm không hoạt động như bình thường. 
+                <strong> Chỉ cần nhấp hai lần để nó hoạt động bình thường.</strong>
               </li>
             </ol>
           </div>
@@ -58,7 +50,7 @@ const SettingMain = () => {
           </div>
 
           <div className="mt-5">
-            <h1 className="text-xl font-bold">Templates</h1>
+            <h1 className="text-xl font-bold">Giao diện</h1>
             <div className="flex flex-row space-x-4 mt-2">
               <TemplateSwitcher value={1} />
               <TemplateSwitcher value={2} />

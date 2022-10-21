@@ -212,8 +212,8 @@ export default function Home() {
       <Head>
         <title>CV Builder</title>
         <meta
-          name="Cv Builder"
-          content="Beautifully designed cv builder where you can see the changes at the same time"
+          name="Cv Builder | MediaZ"
+          content="Trình tạo CV được thiết kế đẹp mắt, nơi bạn có thể xem các thay đổi cùng một lúc"
         />
         <link rel="icon" href="/fav.png" />
       </Head>

@@ -24,7 +24,7 @@ const About = () => {
           layout
           className="w-full flex text-neutral-500 cursor-pointer text-lg"
         >
-          <span className="flex-1">About Yourself</span>
+          <span className="flex-1">Giới thiệu về bản thân</span>
           <motion.div
             className="inline-block items-end"
             animate={{ rotate: isOpen ? 90 : 0 }}

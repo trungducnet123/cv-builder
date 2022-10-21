@@ -21,7 +21,7 @@ const Experiences = () => {
           layout
           className="w-full flex text-neutral-500 cursor-pointer text-lg"
         >
-          <span className="flex-1">Experiences</span>
+          <span className="flex-1">Kinh nghiệm</span>
           <motion.div
             className="inline-block items-end"
             animate={{ rotate: isOpen ? 90 : 0 }}
