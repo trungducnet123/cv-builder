@@ -9,7 +9,6 @@ const GithubBtn = () => {
       rel="noreferrer"
     >
       <button>
-        //<FaGithubAlt className="pb-1 w-9 h-9 text-white " />
 		MediaZ Solutions
       </button>
     </a>
