@@ -210,12 +210,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CV Builder</title>
+        <title>CV Builder| MediaZ</title>
         <meta
           name="Cv Builder | MediaZ"
           content="Trình tạo CV được thiết kế đẹp mắt, nơi bạn có thể xem các thay đổi cùng một lúc"
         />
-        <link rel="icon" href="/fav.png" />
+        <link rel="icon" href="/favicon.jpg" />
       </Head>
       <CvContext.Provider
         value={{
